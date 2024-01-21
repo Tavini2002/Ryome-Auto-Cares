@@ -1,17 +1,29 @@
-const mongoose =require("mongoose");
-const schema = mongoose.schema;
+const mongoose =require('mongoose');
+const Schema = mongoose.Schema;
 
-const supplierSchema =new schema({
-    name:{
-        type:String,
-        required:true
+// schema (it's like an template)
+
+const supplierSchema = new Schema({
+    name : {
+        type : String,
+        required : true
     },
-    ID:{
-        type:String,
-        required:true
+    contact : {
+        type : String,
+        required : true
     },
-    company:{
-        type:String,
-        required:true
+    address : {
+        type : String, 
+        required : true
+    },
+    country : {
+        type : String,
+        required : true
     }
 })
+
+
+const supplier = mongoose.model("Supplier",supplierSchema);
+
+module.exports = supplier;
+ 
