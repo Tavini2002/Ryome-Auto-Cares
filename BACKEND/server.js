@@ -49,7 +49,8 @@ app.use("/booking", bookingRouter);
 
 
 // CHIYAN
-
+const customerRouter = require("./Routes/chiyaan/customer.js");
+app.use("/customer", customerRouter);
 
 // AKIL
 
