@@ -1,0 +1,60 @@
+/* 123 */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@media screen and (max-width: 600px) {
+    body {
+        
+        font-size: 14px;
+    }
+    /* Additional styles for smaller screens */
+}@media screen and (max-width: 300px) {
+    body {
+        font-size: 14px;
+    }
+    /* Additional styles for smaller screens */
+}@media screen and (max-width: 100px) {
+    body {
+        font-size: 14px;
+    }
+    /* Additional styles for smaller screens */
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    /* background-image: url(back.jpg); */
+}
+.background-container {
+    background-color: #f0f0f0; /* Set your desired background color */
+    padding: 20px; /* Add some padding for better spacing */
+}
+.background-container {
+    background-color: #f0f0f0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    height: 100vh; /* Set container height to 100% of the viewport height */
+}
+
+/* Add some styles for better appearance */
+ul {
+    
+    list-style-type: none;
+    padding: 0;
+}
+.line{
+    background-color: rgb(97, 96, 96);
+    height: 3px;
+    width: 100%;
+}
+li {
+    text-align: left;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/*here it is*/
