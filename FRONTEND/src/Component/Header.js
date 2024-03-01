@@ -25,7 +25,7 @@ function Header(){
         <li><a href="">Function 4</a></li>
         <li><a href="/">Function 5</a></li>
         <li><a href="">Function 6</a></li>
-        <li><a href="">Function 7</a></li>
+        <li><a href="">Book Now</a></li>
      
     </ul>
     {/* <div className="line"></div> */}
