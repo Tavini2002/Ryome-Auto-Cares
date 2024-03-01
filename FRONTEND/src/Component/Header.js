@@ -1,6 +1,9 @@
 import React from "react";
 import "./Header.css";
 import imgSrc from "./logo.png";
+import "./BookingPage.js"
+import "./BookingPage.css"
+import { Link } from "react-router-dom";
 
 function Header(){
     return(
@@ -25,8 +28,9 @@ function Header(){
         <li><a href="">Function 4</a></li>
         <li><a href="/">Function 5</a></li>
         <li><a href="">Function 6</a></li>
-        <li><a href="">Book Now</a></li>
-     
+        <li><div className="book-btn">
+            <Link to="/booking">Book Now</Link></div>
+        </li>
     </ul>
     {/* <div className="line"></div> */}
 </div>

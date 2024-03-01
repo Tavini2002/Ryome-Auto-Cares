@@ -11,6 +11,10 @@ import Update from "./Component/Update";
 // import Update from "./Components/Update";
 // import Test from "./Components/Test";
 import Supplier_home from "./Component/Supplier_home";
+
+import BookingPage from "./Component/BookingPage"; // import Booking Page
+
+
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 function App() {
@@ -25,8 +29,11 @@ function App() {
           <Route path="/display" element={<Display/>}/> 
           <Route path="/delete" element={<Delete/>}/>
           <Route path="/update" element={<Update/>}/>
+          <Route path="/booking" element={<BookingPage/>}/>
           {/* <Route path="/test" element={<Test/>}/> */}
+         
         </Routes>
+
       </div>
     </Router>
   );
