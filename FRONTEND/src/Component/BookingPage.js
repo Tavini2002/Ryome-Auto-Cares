@@ -8,7 +8,6 @@ export default function BookingPage(){
         <div className="book">
            <h1>Reserve A Time</h1>
         </div>
-       
-    )
+    );
 }
 
