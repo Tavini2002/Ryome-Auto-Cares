@@ -8,6 +8,8 @@ import Delete from "./Component/Delete";
 // import Display from "./Components/Display";
 import Display from "./Component/Display";
 import Update from "./Component/Update";
+import Register from "./Component/Register";
+import Login from "./Component/Login";
 // import Update from "./Components/Update";
 // import Test from "./Components/Test";
 import Supplier_home from "./Component/Supplier_home";
@@ -25,6 +27,8 @@ function App() {
           <Route path="/display" element={<Display/>}/> 
           <Route path="/delete" element={<Delete/>}/>
           <Route path="/update" element={<Update/>}/>
+          <Route path="/register" element={<Register/>}/>
+          <Route path="/login" element={<Login/>}/>
           {/* <Route path="/test" element={<Test/>}/> */}
         </Routes>
       </div>
