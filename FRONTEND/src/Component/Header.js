@@ -4,6 +4,8 @@ import imgSrc from "./logo.png";
 import "./BookingPage.js"
 import "./BookingPage.css"
 import { Link } from "react-router-dom";
+import "./customerhome.js"
+import "./customerhome.css"
 
 function Header(){
     return(
@@ -27,10 +29,15 @@ function Header(){
         <li><a href="">Function 3</a></li>
         <li><a href="">Function 4</a></li>
         <li><a href="/">Function 5</a></li>
-        <li><a href="">Function 6</a></li>
+        <li>
+        <div className="customer-btn">
+            <Link to="/customer">Customer</Link></div>
+        </li>
+        
         <li><div className="book-btn">
             <Link to="/booking">Book Now</Link></div>
         </li>
+        
     </ul>
     {/* <div className="line"></div> */}
 </div>
