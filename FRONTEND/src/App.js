@@ -32,7 +32,8 @@ function App() {
           <Route path="/delete" element={<Delete/>}/>
           <Route path="/update" element={<Update/>}/>
           <Route path="/booking" element={<BookingPage/>}/>
-          <Route path="/customer" element={<customerhome/>}/>
+          <Route path="/customer" element={<Customerhome/>}/>
+         
 
           {/* <Route path="/test" element={<Test/>}/> */}
          
