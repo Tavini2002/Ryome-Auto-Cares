@@ -17,7 +17,7 @@ import Login from "./Component/Login";
 import Supplier_home from "./Component/Supplier_home";
 
 import BookingPage from "./Component/BookingPage"; // import Booking Page
-import Customerhome from "./Component/Customerhome"; // import customer home
+//import Customerhome from "./Component/Customerhome"; // import customer home
 
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 

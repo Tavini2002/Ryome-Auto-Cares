@@ -5,8 +5,8 @@ import "./BookingPage.js"
 import "./BookingPage.css"
 import { Link } from "react-router-dom";
 
-import "./Customerhome.css";
-import "./Customerhome.js"
+//import "./Customerhome.css";
+//import "./Customerhome.js"
 function Header(){
     return(
        
