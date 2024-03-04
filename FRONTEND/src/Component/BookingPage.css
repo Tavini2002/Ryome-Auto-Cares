@@ -21,3 +21,18 @@
     padding-top: 20px;
     font-size: 45px;
 }
+
+
+.form-area{
+  width:50%;
+  padding-top: 70px;
+  border: 10px black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.formbg{
+  
+}
