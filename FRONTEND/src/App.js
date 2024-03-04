@@ -13,6 +13,10 @@ import Login from "./Component/Login";
 // import Update from "./Components/Update";
 // import Test from "./Components/Test";
 import Supplier_home from "./Component/Supplier_home";
+
+import BookingPage from "./Component/BookingPage"; // import Booking Page
+import customerhome from "./Component/customerhome"; // import customer home
+
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 function App() {
@@ -27,10 +31,13 @@ function App() {
           <Route path="/display" element={<Display/>}/> 
           <Route path="/delete" element={<Delete/>}/>
           <Route path="/update" element={<Update/>}/>
-          <Route path="/register" element={<Register/>}/>
-          <Route path="/login" element={<Login/>}/>
+          <Route path="/booking" element={<BookingPage/>}/>
+          <Route path="/customer" element={<customerhome/>}/>
+
           {/* <Route path="/test" element={<Test/>}/> */}
+         
         </Routes>
+
       </div>
     </Router>
   );
