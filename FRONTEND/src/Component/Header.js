@@ -4,9 +4,9 @@ import imgSrc from "./logo.png";
 import "./BookingPage.js"
 import "./BookingPage.css"
 import { Link } from "react-router-dom";
-import "./customerhome.js"
-import "./customerhome.css"
 
+import "./Customerhome.css";
+import "./Customerhome.js"
 function Header(){
     return(
        

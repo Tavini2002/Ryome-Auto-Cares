@@ -7,15 +7,17 @@ import Add_Supplier from "./Component/Add_Supplier";
 import Delete from "./Component/Delete";
 // import Display from "./Components/Display";
 import Display from "./Component/Display";
-import Update from "./Component/Update";
-import Register from "./Component/Register";
-import Login from "./Component/Login";
+//import Update from "./Component/Update";
+
+//import Register from "./Component/Register";
+
+import Login from "./Component/Login"; 
 // import Update from "./Components/Update";
 // import Test from "./Components/Test";
 import Supplier_home from "./Component/Supplier_home";
 
 import BookingPage from "./Component/BookingPage"; // import Booking Page
-import customerhome from "./Component/customerhome"; // import customer home
+import Customerhome from "./Component/Customerhome"; // import customer home
 
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 

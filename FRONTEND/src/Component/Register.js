@@ -1,8 +1,8 @@
-import {useState} from "react"
+import React from "react"
 
 
 export default function Register() {
-  const [data, setData] = useState({
+  const [data, setData] = React({
     name:'',
     email:'',
     password:'',

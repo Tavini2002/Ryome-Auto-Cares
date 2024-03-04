@@ -1,16 +1,21 @@
 import React from "react";
 import "./Home.css";
-import "./customerhome.js";
-import "./customerhome.css";
+//import "./Customerhome.js";
+import "./Customerhome.css";
 import "./Header.js";
 
 
 
-export default function customerhome(){
+export default function Customerhome(){
     return(
-        
-           <h1>well come </h1>
-      
-       
+        <dev>
+            <button>Customer Registration</button>
+            <button>Profile</button>
+            <button>Review</button>
+
+
+
+        </dev>
+            
     )
 }
