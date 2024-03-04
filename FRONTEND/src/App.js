@@ -11,7 +11,7 @@ import Display from "./Component/Display";
 
 //import Register from "./Component/Register";
 
-import Login from "./Component/Login"; 
+//import Login from "./Component/Login"; 
 // import Update from "./Components/Update";
 // import Test from "./Components/Test";
 import Supplier_home from "./Component/Supplier_home";
@@ -34,7 +34,7 @@ function App() {
           <Route path="/delete" element={<Delete/>}/>
           <Route path="/update" element={<Update/>}/>
           <Route path="/booking" element={<BookingPage/>}/>
-          <Route path="/customer" element={<Customerhome/>}/>
+          
          
 
           {/* <Route path="/test" element={<Test/>}/> */}
