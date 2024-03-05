@@ -14,6 +14,8 @@ import Supplier_home from "./Component/Supplier_home";
 
 import BookingPage from "./Component/BookingPage"; // import Booking Page
 
+import Addpkg from "./Component/Add_package";
+
 
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
@@ -30,6 +32,7 @@ function App() {
           <Route path="/delete" element={<Delete/>}/>
           <Route path="/update" element={<Update/>}/>
           <Route path="/booking" element={<BookingPage/>}/>
+          <Route path="/addpkg" element={<Addpkg/>}/>
           {/* <Route path="/test" element={<Test/>}/> */}
          
         </Routes>
