@@ -64,11 +64,11 @@ function AddPackage() {
             required
           />
           <label>Category</label>
-          <input
+          {/* <input
             type="text"
             onChange={(e) => setCategory(e.target.value)}
             required
-          />
+          /> */}
           <select name="Category" id="catagory">
             <option value="volvo">Interior</option>
             <option value="volvo">Exterior</option>
