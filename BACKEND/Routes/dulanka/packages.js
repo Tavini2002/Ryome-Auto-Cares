@@ -1,5 +1,5 @@
-const router = require("express").Router();
-let Package = require("../../Models/svc-package.js");
+const router = require("express").Router(); // Import the Express module and access its Router function to create a new router object.
+let Package = require("../../Models/svc-package.js");// Import the Package model from the specified path.
 
 //add package
 router.route("/add").post((req, res) => {
