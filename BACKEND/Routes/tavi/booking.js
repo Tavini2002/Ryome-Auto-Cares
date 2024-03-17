@@ -1,9 +1,16 @@
-const router = require("express").Router();
-let booking = require("../../Models/booking");
+const mongoose = require('mongoose')
 
-//Booking CRUD
+const newBooking = new mongoose.Schema({
+    fname:String,
+    lname:String,
+    phoneNumber:String,
+    eAddress:String,
+    vType:String,
+    vNum:String,
+    date:Date,
+    time:TimeRanges,
+});
 
+const Book = mongoose.model('Book', newBooking);
 
-
-
-module.exports = router;
+module.exports = Book;
