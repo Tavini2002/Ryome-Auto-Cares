@@ -34,9 +34,12 @@ function Header(){
             <Link to="/customer">Customer</Link></div>
         </li>
         
-        <li><div className="book-btn">
-            <Link to="/booking">Book Now</Link></div>
+        <li>
+            <div class="book-btn bg-red-500 hover:bg-red-600 text-black hover:text-black rounded-full text-center py-3 px-6">
+                <a href="/booking" class="text-whitesmoke">Book Now</a>
+            </div>
         </li>
+
         
     </ul>
     {/* <div className="line"></div> */}
