@@ -7,21 +7,19 @@ import Add_Supplier from "./Component/Add_Supplier";
 import Delete from "./Component/Delete";
 // import Display from "./Components/Display";
 import Display from "./Component/Display";
-import Update from "./Component/Update";
-import Chome from "./Component/Chome";
-import Register from "./Component/Register"
-import Review from "./Component/Review"
-import Profile from "./Component/Profile"
+//import Update from "./Component/Update";
 
+//import Register from "./Component/Register";
 
-
-
+//import Login from "./Component/Login"; 
 // import Update from "./Components/Update";
 // import Test from "./Components/Test";
 import Supplier_home from "./Component/Supplier_home";
 
 import BookingPage from "./Component/BookingPage"; // import Booking Page
-//import Customerhome from "./Component/Customerhome"; // import customer home
+
+import Addpkg from "./Component/Add_package";
+
 
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
@@ -38,12 +36,6 @@ function App() {
           <Route path="/delete" element={<Delete/>}/>
           <Route path="/update" element={<Update/>}/>
           <Route path="/booking" element={<BookingPage/>}/>
-          <Route path="/Chome" element={<Chome/>}/>
-          <Route path="/Register" element={<Register/>}/>
-          < Route path="/Review"  element = {<Review/>}/>
-          < Route path="/Profile"  element = {<Profile/>}/>
-
-
           
          
 
