@@ -18,7 +18,7 @@ import Create_Job from "./Component/job";
 
 import BookingPage from "./Component/BookingPage"; // import Booking Page
 
-// import Home from "./Component/home";
+import Home from "./Component/home";
 
 
 import Addpkg from "./Component/Add_package";

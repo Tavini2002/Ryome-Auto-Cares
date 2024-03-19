@@ -9,6 +9,17 @@ router.route("/add").post((req, res) => {
   const unitprice = req.body.unitprice;
   const catagory = req.body.catagory;
 
+  //validate data
+  //validate pid as number
+  if (isNaN(pid)) {
+    return res.status(400).json({ message: "pid must be a number" });
+  }
+
+  //validate unitprice as number
+  if (isNaN(unitprice)) {
+    return res.status(400).json({ message: "unitprice must be a number" });
+  }
+
   const newPackage = new Package({
     pid,
     name,
@@ -16,6 +27,8 @@ router.route("/add").post((req, res) => {
     unitprice,
     catagory,
   });
+
+ 
 
   newPackage
     .save()

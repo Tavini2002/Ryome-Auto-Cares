@@ -1,4 +1,4 @@
-/* 123 */
+/* 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -7,27 +7,27 @@
         
         font-size: 14px;
     }
-    /* Additional styles for smaller screens */
+   
 }@media screen and (max-width: 300px) {
     body {
         font-size: 14px;
     }
-    /* Additional styles for smaller screens */
+    
 }@media screen and (max-width: 100px) {
     body {
         font-size: 14px;
     }
-    /* Additional styles for smaller screens */
+    
 }
 
 body{
     background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
-    /* background-image: url(back.jpg); */
+    
 }
 .background-container {
-    background-color: #f0f0f0; /* Set your desired background color */
-    padding: 20px; /* Add some padding for better spacing */
+    background-color: #f0f0f0; 
+    padding: 20px; 
 }
 .background-container {
     background-color: #f0f0f0;
@@ -37,10 +37,10 @@ body{
     align-items: center;
     justify-content: center;
     
-    height: 100vh; /* Set container height to 100% of the viewport height */
+    height: 100vh; 
 }
 
-/* Add some styles for better appearance */
+
 ul {
     
     list-style-type: none;
@@ -57,4 +57,4 @@ li {
     text-align: center;
 }
 
-/*here it is*/
+ */
