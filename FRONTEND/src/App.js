@@ -18,7 +18,7 @@ import Update from "./Component/Update";
 
 import BookingPage from "./Component/BookingPage"; // import Booking Page
 
-// import Home from "./Component/home";
+import Home from "./Component/home";
 
 
 import Addpkg from "./Component/Add_package";
@@ -34,7 +34,7 @@ function App() {
       
         <Routes>
           {/* <Route path="" */}
-          {/* <Route path="/" element={  <Home/>}/> */}
+          <Route path="/" element={  <Home/>}/>
           <Route path="/add" element={<Add_Supplier />} />
           <Route path="/display" element={<Display/>}/> 
           <Route path="/delete" element={<Delete/>}/>
