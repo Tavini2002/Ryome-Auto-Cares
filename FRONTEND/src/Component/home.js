@@ -11,6 +11,14 @@ function Home() {
            <div className="btns">          
             <a href="" className="btn1"><button>BOOK NOW</button></a>
             <a href=""className="btn2"><button>NEW JOB</button></a>
+            
+            </div>
+            <div className="SEC-2">
+                <h1 style= {{color: '#FF8A00'}}>MAIN </h1>
+                <h1>SERVICES </h1>
+            </div>
+            <div className="secImg">
+
             </div>
             
            

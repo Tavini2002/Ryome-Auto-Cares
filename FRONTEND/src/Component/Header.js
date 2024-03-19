@@ -1,5 +1,5 @@
 import React from "react";
-import "./Header.css";
+import "./Home.css";
 
 import imgSrc from "./logo.png";
 import "./BookingPage.js"
@@ -30,10 +30,10 @@ function Header(){
        
         </div>
         </div>
-        <li><a href="">Home</a></li>
+        <li><a href="/">Home</a></li>
         <div className="customer-btn">
             <Link to="/Chome">Customer</Link></div>
-        <li><a href="">Supplier</a></li>
+        <li><a href="/add">Supplier</a></li>
         <li><a href="">Staff</a></li>
         <li><a href="/">Inventory</a></li>
         <li><a href="/">Finance</a></li>
