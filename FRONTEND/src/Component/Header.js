@@ -1,5 +1,6 @@
 import React from "react";
-import "./Header.css";
+import "./Home.css";
+
 import imgSrc from "./logo.png";
 import "./BookingPage.js"
 import "./BookingPage.css"
@@ -29,14 +30,16 @@ function Header(){
        
         </div>
         </div>
-        <li><a href="">Function 1</a></li>
-        <li><a href="">Function 2</a></li>
-        <li><a href="">Function 3</a></li>
-        <li><a href="">Function 4</a></li>
-        <li><a href="/">Function 5</a></li>
-        <li>
+        <li><a href="/">Home</a></li>
         <div className="customer-btn">
             <Link to="/Chome">Customer</Link></div>
+        <li><a href="/add">Supplier</a></li>
+        <li><a href="">Staff</a></li>
+        <li><a href="/">Inventory</a></li>
+        <li><a href="/">Finance</a></li>
+        <li><a href="">Services</a></li>
+        <li>
+        
         </li>
         
         <li>
@@ -48,7 +51,7 @@ function Header(){
         
     </ul>
     
-    {/* <div className="line"></div> */}
+
 </div>
 
     )

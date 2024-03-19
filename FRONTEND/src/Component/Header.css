@@ -1,11 +1,11 @@
 body{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    background-color: rgb(238, 238, 238);
+  background-color: transparent;
 }
 .txt{
-    color: rgb(255, 145, 0);
+   
     display: flex;
     text-decoration: none;
+    background-color: transparent;
    
 }
 .txt img{
@@ -15,7 +15,7 @@ body{
 .nav_b, a{
     text-decoration: none;
     display: flex;
-    color: rgb(255, 255, 255);
+    color: rgba(93, 22, 207, 0);
    
     font-family:Arial, Helvetica, sans-serif ; 
     padding: 0px 15px;
@@ -23,7 +23,7 @@ body{
 }
 
 .nav_b a:hover {
-    color: rgb(224, 2, 39);
+    color: rgba(224, 2, 39, 0);
     text-decoration: none;
     display: flex;
     
@@ -34,14 +34,13 @@ body{
     justify-content: center;
 }
 
-/* Header.css */
 
 .txt {
   margin-left: -13px;
     width:100%;
   margin-top: -7.8px;
   background-color: #7c7c7c0e;
-  color: #fff; 
+  color: #ec131300; 
   padding: 10px; 
   text-align: center; 
 }
@@ -67,7 +66,7 @@ h2 {
 .nav_b a {
     padding: 0px 15px;
   text-decoration: none;
-  color: #000000; 
+  color: #ffffff; 
   font-weight: bold; 
   font-size: 16px; 
   transition: color 0.3s ease;
@@ -75,7 +74,7 @@ h2 {
 
 .nav_b a:hover {
     padding: 0px 15px;
-  color: #3c94e7; /* Change link color on hover to a contrasting color */
+  color: #3c94e7; 
 }
 .dropdown:hover .dropdowncontent{
     display: block;
