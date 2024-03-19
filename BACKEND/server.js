@@ -37,10 +37,10 @@ const JobRouter = require("./Routes/hima/job.js");
 app.use("/job", JobRouter);
 
 // DULA
-const svcPackagesRouter = require("./Routes/dulanka/svc-packages.js");
+const svcPackagesRouter = require("./Routes/dulanka/packages.js");
 app.use("/svc-packages", svcPackagesRouter);
 
-const svcRecordsRouter = require("./Routes/dulanka/svc-records.js");
+const svcRecordsRouter = require("./Routes/dulanka/packages.js");
 app.use("/svc-records", svcRecordsRouter);
 
 
