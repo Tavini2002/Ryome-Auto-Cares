@@ -32,6 +32,7 @@ function Header(){
             <Link to="/booking">Book Now</Link></div>
         </li>
     </ul>
+    
     {/* <div className="line"></div> */}
 </div>
 
