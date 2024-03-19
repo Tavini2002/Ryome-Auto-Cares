@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import "./Add_package.css";
-import "./Res.css";
 import axios from "axios";
 
 function AddPackage() {
