@@ -8,7 +8,7 @@ import Delete from "./Component/Delete";
 // import Display from "./Components/Display";
 import Display from "./Component/Display";
 import Update from "./Component/Update";
-
+import Create_Job from "./Component/job";
 //import Register from "./Component/Register";
 
 // import Login from "./Component/Login"; 
@@ -36,6 +36,7 @@ function App() {
           {/* <Route path="" */}
           <Route path="/" element={  <Home/>}/>
           <Route path="/add" element={<Add_Supplier />} />
+          <Route path="/createjob" element={<Create_Job />} />
           <Route path="/display" element={<Display/>}/> 
           <Route path="/delete" element={<Delete/>}/>
           {/* <Route path="/update" element={<Update/>}/> */}
