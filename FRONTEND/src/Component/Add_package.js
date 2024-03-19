@@ -1,10 +1,6 @@
 import React, { useState } from "react";
-<<<<<<< HEAD
 import "./Add_package.css";
-=======
 
-import "./Res.css";
->>>>>>> a5b56b7467bebbc0f060436f24ab05cd2a954a61
 import axios from "axios";
 
 function AddPackage() {
