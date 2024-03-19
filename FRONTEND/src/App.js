@@ -14,7 +14,7 @@ import Update from "./Component/Update";
 // import Login from "./Component/Login"; 
 // import Update from "./Components/Update";
 // import Test from "./Components/Test";
-// import Supplier_home from "./Component/Supplier_home";
+import Supplier_home from "./Component/Supplier_home";
 
 import BookingPage from "./Component/BookingPage"; // import Booking Page
 
@@ -41,6 +41,7 @@ function App() {
           {/* <Route path="/update" element={<Update/>}/> */}
           <Route path="/booking" element={<BookingPage/>}/>
           {/* <Route path="/customer" element={<Customerhome/>}/> */}
+          <Route path="/addpkg" element={<Addpkg/>}/>
          
 
           {/* <Route path="/test" element={<Test/>}/> */}
