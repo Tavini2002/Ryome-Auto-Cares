@@ -1,7 +1,6 @@
 
 import React, { useState } from "react";
 import "./Add_Supplier.css";
-import "./Res.css";
 
 import axios from "axios";
 function Add_Supplier() {
