@@ -8,7 +8,7 @@ const newBooking = new mongoose.Schema({
     vType:String,
     vNum:String,
     date:Date,
-    time:TimeRanges,
+    time:TimeRanges
 });
 
 const Book = mongoose.model('Book', newBooking);
