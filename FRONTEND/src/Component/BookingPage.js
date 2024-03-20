@@ -2,10 +2,10 @@ import React from "react";
 import "./Home.css";
 import "./BookingPage.js";
 import "./BookingPage.css";
-import "/BookingPageCustomerLogin";
-import imgSrc from "../Images/customer.png";
-import imgSrc1 from "./Images/manager.png";
-import imgSrc2 from "./Images/wipe.jpg";
+//import "/BookingPageCustomerLogin";
+import imgSrc from "./customer.png";
+import imgSrc1 from "./manager.png";
+import imgSrc2 from "./wipe.jpg";
 
 export default function BookingPage() {
   return (
