@@ -1,5 +1,6 @@
 import React, {useState} from "react";
 import axios from "axios";
+import './job.css'
 
 function CreateJob() {
     const [jobNumber, setjobNumber] = useState("");
@@ -119,7 +120,11 @@ function CreateJob() {
                     <input type="tel" onChange={(e) => setcontactNumber(e.target.value)} />  
 
                     <label>E-mail :</label>
-                    <input type="email" onChange={(e) => setemail(e.target.value)} />  
+                    <input type="email" onChange={(e) => setemail(e.target.value)} /> 
+
+                    {/* <h3 className="serviceType">Service Type :</h3> 
+                    <input type="checkbox" onChange={(e) => setserviceType(e.target.value)} /> 
+                    <label>Body wash</label> */}
 
                     
 

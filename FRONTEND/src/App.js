@@ -17,7 +17,7 @@ import Create_Job from "./Component/job";
 import Supplier_home from "./Component/Supplier_home";
 
 import BookingPage from "./Component/BookingPage"; // import Booking Page
-
+import BookingPageCustomerLogin from "./Component/BookingPageCustomerLogin";  // import Booking Customer Login Page
 import Home from "./Component/home";
 
 
@@ -43,7 +43,7 @@ function App() {
           <Route path="/booking" element={<BookingPage/>}/>
           {/* <Route path="/customer" element={<Customerhome/>}/> */}
           <Route path="/addpkg" element={<Addpkg/>}/>
-         
+          <Route path="/bookCusLog" element={<BookingPageCustomerLogin/>}/>
 
           {/* <Route path="/test" element={<Test/>}/> */}
          
