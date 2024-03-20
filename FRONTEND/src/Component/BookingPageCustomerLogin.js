@@ -9,7 +9,7 @@ import "./BookingPage.css";
 export default function BookingPageCustomerLogin() {
   return (
     <div>
-      
+      <h1>helloooooooooooooooooooooooo</h1>
     </div>
   );
 }

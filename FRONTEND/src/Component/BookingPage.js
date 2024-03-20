@@ -2,9 +2,10 @@ import React from "react";
 import "./Home.css";
 import "./BookingPage.js";
 import "./BookingPage.css";
-import imgSrc from "./customer.png";
-import imgSrc1 from "./manager.png";
-import imgSrc2 from "./wipe.jpg";
+import "/BookingPageCustomerLogin";
+import imgSrc from "../Images/customer.png";
+import imgSrc1 from "./Images/manager.png";
+import imgSrc2 from "./Images/wipe.jpg";
 
 export default function BookingPage() {
   return (
@@ -27,7 +28,7 @@ export default function BookingPage() {
         <figure>
           <img className="rounded-full w-40 h-40 ms-20" src={imgSrc} />
           <figcaption className="mt-2 text-sm text-center text-gray-500 dark:text-gray-400 ms-20">
-            <button className="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">Customer Login</button>
+            <button className="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded"><a href="/bookCusLog">Customer Login</a></button>
           </figcaption>
         </figure>
         <figure>
