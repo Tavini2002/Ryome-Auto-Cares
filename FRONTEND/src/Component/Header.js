@@ -1,6 +1,5 @@
 import React from "react";
 import "./Home.css";
-
 import imgSrc from "./logo.png";
 import "./BookingPage.js"
 import "./BookingPage.css"
