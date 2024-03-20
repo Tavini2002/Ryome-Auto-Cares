@@ -43,7 +43,7 @@
 //     )
 // }
 import React, { useState, useEffect } from "react";
-import "./Res.css";
+
 import axios from "axios";
 
 export default function Display() {
