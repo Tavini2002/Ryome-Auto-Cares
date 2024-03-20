@@ -9,7 +9,7 @@ function Home() {
             <br/>
             <p>Transform the way you drive with Ryome Autocare,<br/> the pinnacle of accuracy in auto repair and <br/>maintenance.</p>
            <div className="btns">          
-            <a href="" className="btn1"><button>BOOK NOW</button></a>
+            <a href="/booking" class="text-whitesmoke" className="btn1"><button>BOOK NOW</button></a>
             <a href=""className="btn2"><button>NEW JOB</button></a>
             
             </div>
