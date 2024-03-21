@@ -36,6 +36,7 @@ import Addpkg from "./Component/Add_package";
 
 
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import BookNowPage from "./Component/BookNowPage";
 
 function App() {
   return (
@@ -54,9 +55,10 @@ function App() {
           <Route path="/booking" element={<BookingPage/>}/>
           {/* <Route path="/customer" element={<Customerhome/>}/> */}
           <Route path="/addpkg" element={<Addpkg/>}/>
-          
+
           <Route path="/bookCusLog" element={<BookingPageCustomerLogin/>}/>
           <Route path="/bookManageLog" element={<BookingPageManagerLogin/>}/>
+          <Route path="/bookNow" element={<BookNowPage/>}/>
 
           {/* <Route path="/test" element={<Test/>}/> */}
 
