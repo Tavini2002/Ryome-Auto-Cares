@@ -33,7 +33,9 @@ import Home from "./Component/home";
 
 import Home from "./Component/home";
 
+//service
 import Addpkg from "./Component/Add_package";
+import Servicehome from "./Component/servicehome";
 
 
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
