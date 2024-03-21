@@ -3,29 +3,36 @@ let Package = require("../../Models/svc-package.js");// Import the Package model
 
 //add package
 router.route("/add").post((req, res) => {
+
+
+
   const pid = req.body.pid;
   const name = req.body.name;
   const description = req.body.description;
-  const unitprice = req.body.unitprice;
-  const catagory = req.body.catagory;
+  const unitprice = parseInt(req.body.unitprice);
+  console.log("test");
+  const category = req.body.category;
+
+
+  
 
   //validate data
   //validate pid as number
-  if (isNaN(pid)) {
+   if (isNaN(pid)) {
     return res.status(400).json({ message: "pid must be a number" });
   }
-
-  //validate unitprice as number
+  console.log("test2");
+  // validate unitprice as number
   if (isNaN(unitprice)) {
     return res.status(400).json({ message: "unitprice must be a number" });
   }
-
+  console.log("test3");
   const newPackage = new Package({
     pid,
     name,
     description,
     unitprice,
-    catagory,
+    category,
   });
 
  
@@ -33,11 +40,19 @@ router.route("/add").post((req, res) => {
   newPackage
     .save()
     .then(() => {
-      res.json("Package Added");
+
+      console.log("test res");
+      return res.json("Package Added");
     })
     .catch((err) => {
-      console.log(err);
+      console.log("test er");
+     return console.log(err);
     });
+
+
+
+
+
 });
 
 //read package

@@ -18,7 +18,7 @@ function AddPackage() {
       pid,
       name,
       description,
-      unitPrice: parseFloat(unitPrice), // Ensure unitPrice is correctly formatted as a number
+      unitprice: parseFloat(unitPrice), // Ensure unitPrice is correctly formatted as a number
       category,
     };
 
@@ -30,6 +30,12 @@ function AddPackage() {
       .catch((err) => {
         alert(err.message); //error message
       });
+
+      
+      
+
+
+
   }
 
   return (
@@ -70,10 +76,13 @@ function AddPackage() {
             required
           />
           <label>Category</label>
-          <select name="Category" id="catagory" className="px-3 py-1 rounded-lg border border-black-400 w-full text-black"> 
+          <select name="Category" id="catagory" className="px-3 py-1 rounded-lg border border-black-400 w-full text-black"
+          
+          onChange={(e) => setCategory(e.target.value)}> 
             <option value="volvo">Interior</option>
             <option value="volvo">Exterior</option>
             <option value="saab">Hybrid Services</option>
+
            
           </select>
           
