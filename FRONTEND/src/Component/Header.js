@@ -46,7 +46,7 @@ function Header() {
 
         <li>
           <div className="customer-btn">
-            <a href="/Chome">Customer</a>
+            <a href="/Customerlogin">Customer</a>
           </div>
         </li>
 
