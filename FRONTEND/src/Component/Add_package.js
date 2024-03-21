@@ -31,11 +31,6 @@ function AddPackage() {
         alert(err.message); //error message
       });
 
-      
-      
-
-
-
   }
 
   return (

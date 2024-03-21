@@ -31,7 +31,7 @@ import BookingPageManagerLogin from "./Component/BookingPageManagerLogin";   // 
 
 import Home from "./Component/home";
 
-
+import Home from "./Component/home";
 import Addpkg from "./Component/Add_package";
 
 
@@ -54,11 +54,12 @@ function App() {
           <Route path="/booking" element={<BookingPage/>}/>
           {/* <Route path="/customer" element={<Customerhome/>}/> */}
           <Route path="/addpkg" element={<Addpkg/>}/>
-          
+          <Route path="/servicehome" element={<Servicehome/>}/>
           <Route path="/bookCusLog" element={<BookingPageCustomerLogin/>}/>
           <Route path="/bookManageLog" element={<BookingPageManagerLogin/>}/>
 
           {/* <Route path="/test" element={<Test/>}/> */}
+
 
           <Route path="/Chome" element={<Chome/>}/>
           <Route path="/Register" element={<Register/>}/>

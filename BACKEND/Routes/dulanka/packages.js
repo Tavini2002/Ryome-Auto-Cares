@@ -48,11 +48,6 @@ router.route("/add").post((req, res) => {
       console.log("test er");
      return console.log(err);
     });
-
-
-
-
-
 });
 
 //read package
