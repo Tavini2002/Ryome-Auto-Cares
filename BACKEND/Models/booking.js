@@ -8,7 +8,7 @@ const mongoose = require('mongoose')
      vType:String,
      vNum:String,
      date:Date,
-     time:TimeRanges,
+     time:Date
  });
 
  const Book = mongoose.model('Book', newBooking);
