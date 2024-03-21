@@ -68,11 +68,7 @@ function Header() {
         <li></li>
 
         <li>
-          <div class="book-btn bg-red-500 hover:bg-red-600 text-black hover:text-black rounded-full text-center py-3 px-6">
-            <a href="/booking" class="text-whitesmoke">
-              Book Now
-            </a>
-          </div>
+          <div class="bookBtn text-white bg-gradient-to-r from-red-400 via-red-500 to-red-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-red-300 dark:focus:ring-red-800 shadow-lg shadow-red-500/50 dark:shadow-lg dark:shadow-red-800/80 font-medium rounded-lg text-xl px-5 py-2.5 text-center me-2 mb-2"><a href="/booking" class="text-whitesmoke">Book Now</a></div>
         </li>
       </ul>
     </div>

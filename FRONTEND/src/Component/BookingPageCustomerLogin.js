@@ -2,8 +2,6 @@ import React from "react";
 import "./Home.css";
 import "./BookingPage.js";
 import "./BookingPage.css";
-//import imgSrc from "./customer.png";
-//import imgSrc1 from "./manager.png";
 import imgSrc3 from "./vacuum.jpg";
 
 export default function BookingPageCustomerLogin() {
@@ -17,8 +15,7 @@ export default function BookingPageCustomerLogin() {
         <li className="ms-20 my-10 text-2xl font-semibold text-gray-400 dark:text-gray-400">Completed Appointment</li>
         <li className="ms-20 my-10 text-2xl font-semibold text-gray-400 dark:text-gray-400">Cancelled Appointment</li>
       </ul>
-
-      <button type="button" class="ms-20 mt-20 text-white bg-gradient-to-r from-red-400 via-red-500 to-red-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-red-300 dark:focus:ring-red-800 shadow-lg shadow-red-500/50 dark:shadow-lg dark:shadow-red-800/80 font-medium rounded-lg text-2xl px-5 py-2.5 text-center me-2 mb-2">Book Now</button>
+      <button type="button" class="ms-20 mt-20 my-10 text-white bg-gradient-to-r from-red-400 via-red-500 to-red-600 hover:bg-gradient-to-br shadow-lg shadow-red-500/50 dark:shadow-lg dark:shadow-red-800/80 font-medium rounded-lg text-xl px-5 py-2.5 text-center me-2 mb-2">Book Now</button>
       </div>
       </div>
   );

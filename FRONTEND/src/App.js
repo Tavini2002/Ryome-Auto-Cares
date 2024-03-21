@@ -27,6 +27,8 @@ import Profile from "./Component/Profile";
 
 import BookingPage from "./Component/BookingPage"; // import Booking Page
 import BookingPageCustomerLogin from "./Component/BookingPageCustomerLogin";  // import Booking Customer Login Page
+import BookingPageManagerLogin from "./Component/BookingPageManagerLogin";   // import Booking Manager Login Page
+
 import Home from "./Component/home";
 
 
@@ -52,7 +54,9 @@ function App() {
           <Route path="/booking" element={<BookingPage/>}/>
           {/* <Route path="/customer" element={<Customerhome/>}/> */}
           <Route path="/addpkg" element={<Addpkg/>}/>
+          
           <Route path="/bookCusLog" element={<BookingPageCustomerLogin/>}/>
+          <Route path="/bookManageLog" element={<BookingPageManagerLogin/>}/>
 
           {/* <Route path="/test" element={<Test/>}/> */}
 
