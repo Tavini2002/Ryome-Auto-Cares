@@ -8,7 +8,7 @@ import imgSrc1 from "./manager.png";
 import imgSrc2 from "./wipe.jpg";
 
 export default function BookingPage() {
-  return (
+  return ( 
     <div className="background">
       <div className="relative">
         <h1 className="ms-20 mt-20 m text-6xl font-extrabold dark:text-white">Book Now</h1>
