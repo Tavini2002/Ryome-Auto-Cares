@@ -5,10 +5,10 @@ import axios from "axios";
 
 function AddPackage() {
   // add package form
-  const [pid, setPid] = useState("");
+  const [pid, setPid] = useState(0);
   const [name, setName] = useState("");
   const [description, setDescription] = useState("");
-  const [unitPrice, setUnitPrice] = useState("");
+  const [unitPrice, setUnitPrice] = useState(0);
   const [category, setCategory] = useState("");
 
   function submit(e) {
@@ -18,7 +18,7 @@ function AddPackage() {
       pid,
       name,
       description,
-      unitPrice: parseFloat(unitPrice), // Ensure unitPrice is correctly formatted as a number
+      unitprice: parseFloat(unitPrice), // Ensure unitPrice is correctly formatted as a number
       category,
     };
 
@@ -30,6 +30,12 @@ function AddPackage() {
       .catch((err) => {
         alert(err.message); //error message
       });
+
+      
+      
+
+
+
   }
 
   return (
@@ -37,7 +43,7 @@ function AddPackage() {
       <div className="Add">
         <h1 className="text-3xl text-center bg-red-300 px-3 rounded-lg">Add Package</h1>
         <form onSubmit={submit}>
-          {" "}
+ 
           {/* Handle the submit event here */}
          
         
@@ -70,10 +76,13 @@ function AddPackage() {
             required
           />
           <label>Category</label>
-          <select name="Category" id="catagory" className="px-3 py-1 rounded-lg border border-black-400 w-full text-black"> 
+          <select name="Category" id="catagory" className="px-3 py-1 rounded-lg border border-black-400 w-full text-black"
+          
+          onChange={(e) => setCategory(e.target.value)}> 
             <option value="volvo">Interior</option>
             <option value="volvo">Exterior</option>
             <option value="saab">Hybrid Services</option>
+
            
           </select>
           
