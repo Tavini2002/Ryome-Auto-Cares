@@ -1,6 +1,6 @@
 import React, { useState } from "react";
+// import "./Add_package.css";
 //import "./Add_package.css";
-
 import axios from "axios";
 
 function AddPackage() {
@@ -39,41 +39,45 @@ function AddPackage() {
         <form onSubmit={submit}>
           {" "}
           {/* Handle the submit event here */}
+         
+        
           <label>Pid</label>
           <input
             type="number"
-            className="px-3 py-1 rounded-lg border border-gray-400 w-full"
+            className="px-3 py-1 rounded-lg border border-black-400 w-full text-black"
             onChange={(e) => setPid(e.target.value)}
             required
           />
           <label>Name</label>
           <input
             type="text"
-            className="px-3 py-1 rounded-lg border border-gray-400 w-full"
+            className="px-3 py-1 rounded-lg border border-black-400 w-full text-black"
             onChange={(e) => setName(e.target.value)}
             required
           />
           <label>Description</label>
           <input
             type="text"
-            className="px-3 py-1 rounded-lg border border-gray-400 w-full"
+            className="px-3 py-1 rounded-lg border border-black-400 w-full text-black"
             onChange={(e) => setDescription(e.target.value)}
             required
           />
           <label>Unit Price</label>
           <input
             type="number"
-            className="px-3 py-1 rounded-lg border border-gray-400 w-full"
+            className="px-3 py-1 rounded-lg border border-black-400 w-full text-black"
             onChange={(e) => setUnitPrice(e.target.value)}
             required
           />
           <label>Category</label>
-          <select name="Category" id="catagory" className="px-3 py-1 rounded-lg border border-gray-400 w-full"> 
+          <select name="Category" id="catagory" className="px-3 py-1 rounded-lg border border-black-400 w-full text-black"> 
             <option value="volvo">Interior</option>
             <option value="volvo">Exterior</option>
             <option value="saab">Hybrid Services</option>
            
           </select>
+          
+          
           <input className="w-fit bg-indigo-600 px-6 py-1 text-white rounded-lg mt-3 mx-auto font-sans font-semibold"  type="submit" value="Add Package" />
         </form>
       </div>
