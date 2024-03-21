@@ -5,10 +5,10 @@ import axios from "axios";
 
 function AddPackage() {
   // add package form
-  const [pid, setPid] = useState("");
+  const [pid, setPid] = useState(0);
   const [name, setName] = useState("");
   const [description, setDescription] = useState("");
-  const [unitPrice, setUnitPrice] = useState("");
+  const [unitPrice, setUnitPrice] = useState(0);
   const [category, setCategory] = useState("");
 
   function submit(e) {
@@ -37,7 +37,7 @@ function AddPackage() {
       <div className="Add">
         <h1 className="text-3xl text-center bg-red-300 px-3 rounded-lg">Add Package</h1>
         <form onSubmit={submit}>
-          {" "}
+ 
           {/* Handle the submit event here */}
          
         
