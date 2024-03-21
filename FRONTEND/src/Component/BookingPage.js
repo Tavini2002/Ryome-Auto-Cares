@@ -9,7 +9,7 @@ import imgSrc2 from "./wipe.jpg";
 
 export default function BookingPage() {
   return ( 
-    <div className="background">
+    <div>
       <div className="relative">
         <h1 className="ms-20 mt-20 m text-6xl font-extrabold dark:text-white">Book Now</h1>
         <img src={imgSrc2} alt="Wipe Image" className="absolute top-4 right-10 mx-60 rounded-2xl" style={{ width: "400px", height: "600px" }}/>
