@@ -17,7 +17,7 @@ const packageSchema = new Schema({
         required : true
     },
     unitprice : {
-        type : String, 
+        type : Number, 
         required : true
     },
     catagory : {
