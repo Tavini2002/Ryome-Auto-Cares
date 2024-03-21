@@ -9,6 +9,8 @@ import Delete from "./Component/Delete";
 import Display from "./Component/Display";
 //import Update from "./Component/Update";
 import Create_Job from "./Component/job";
+
+//Customer
 import Chome from "./Component/Chome";
 import Register from "./Component/Register";
 import Review from "./Component/Review";
