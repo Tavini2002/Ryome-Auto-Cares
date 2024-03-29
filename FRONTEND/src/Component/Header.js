@@ -17,7 +17,7 @@ function Header() {
         <img src={imgSrc} />
       </a>
       <ul type="none" className="nav_b">
-        <div className="dropdown">
+        {/* <div className="dropdown">
           <li className="dropdownbtn">
             <a href="">My function</a>
           </li>
@@ -38,7 +38,7 @@ function Header() {
               <a href="/delete">Delete</a>
             </li>
           </div>
-        </div>
+        </div> */}
 
         <li>
           <a href="/">Home</a>
