@@ -80,7 +80,10 @@ router.route("/update/:id").put(async (req, res) => {
 
   res.status(200).send({ status: "Package Updated" });
 
-  /
+ 
+});
+
+//delete package
 
 router.route("/delete/:id").delete(async (req, res) => {
   let packageId = req.params.id;
