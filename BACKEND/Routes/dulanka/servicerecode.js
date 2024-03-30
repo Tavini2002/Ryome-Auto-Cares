@@ -68,35 +68,4 @@ router.route("/update/:id").put(async(req, res) => {
   }
  res.status(200).send({ status: "Recode Updated" });
 });
-//delete recodes
-
-router.route("/delete/:id").delete(async(req, res) => {
-  let recordeId = req.params.id;
-
-  await Recode.findById(RecodeId)
-    .then(() => {
-      res.status(200).send({ status: "Recode deleted" , recode: recode});
-    })
-    .catch((err) => {
-      console.log(err);
-      res
-        .status(500)
-        .send({ status: "Recode can't be deleted", error: err.message });
-    });
-})
-
-router.route("/get/:id").get(async (req, res) => {
-    
-    let recordeId = req.params.id;
-    await Recode.findById(packageId)
-      .then((recode) => {
-        res.status(200).send({ status: "Recode fetched", recode });
-      })
-      .catch((err) => {
-        console.log(err.message);
-        res
-          .status(500)
-          .send({ status: "Can't find recode", error: err.message });
-      });
-});
 module.exports = router; // Export the router object to be used in the server.js file.
