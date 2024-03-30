@@ -58,19 +58,12 @@ export default function BookNowPage() {
 
 
                     </table>
-                        
-
-                        
-
-
-                    
                 </div>
-       
 
                 <div class="form-group">
                     <label class="block text-sm font-medium text-black mx-10">Services</label>
-                    <div class="mt-1 space-y-2 flex mx-10 mt-5  ms-10">
-                        <div class="flex items-center me-10">
+                    <div class="mt-5 space-y-2 flex mx-10">
+                        <div class="mt-1 flex items-center me-10">
                             <input id="service" name="services" type="checkbox"></input>
                             <label for="service">Service 1</label>
                         </div>
@@ -102,10 +95,7 @@ export default function BookNowPage() {
                             <input id="service" name="services" type="checkbox"></input>
                             <label for="service">Service 8</label>
                         </div>  
-                        <div class="flex items-center me-10">
-                            <input id="service" name="services" type="checkbox"></input>
-                            <label for="service">Service 10</label>
-                        </div> 
+
                     </div>
                     <div class="mt-1 space-y-2 flex mx-10 mt-5  ms-10">
                         <div class="flex items-center me-10">
@@ -132,7 +122,7 @@ export default function BookNowPage() {
                 </div>
             </div>
 
-            <div class="mt-6">
+            <div class="mt-5 mb-5 flex justify-center">
                 <button type="submit" class="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">Submit</button>
             </div>
         </form>
