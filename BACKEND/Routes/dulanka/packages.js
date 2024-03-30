@@ -80,17 +80,7 @@ router.route("/update/:id").put(async (req, res) => {
 
   res.status(200).send({ status: "Package Updated" });
 
-  // Package.findByIdAndUpdate(packageId, updatePackage)
-  //   .then(() => {
-  //     res.status(200).send({ status: "Package Updated" });
-  //   })
-  //   .catch((err) => {
-  //     console.log(err);
-  //     res.status(500).send({ status: "Error with updating data" });
-  //   });
-});
-
-//delete package
+  /
 
 router.route("/delete/:id").delete(async (req, res) => {
   let packageId = req.params.id;
