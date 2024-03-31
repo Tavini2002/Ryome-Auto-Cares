@@ -1,7 +1,5 @@
 const mongoose =require('mongoose');
-const { list } = require('tar');
 const Schema = mongoose.Schema;
-
 
 const bookSchema = new Schema({
     fname : {
@@ -49,7 +47,7 @@ const bookSchema = new Schema({
     serviceBox : {
         type : String,
         required : true
-    },
+    }
 })
 
 
