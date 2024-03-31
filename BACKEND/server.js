@@ -45,8 +45,8 @@ app.use("/svc-records", svcRecordsRouter);
 
 
 //TAVI
-const bookingRouter = require("./Routes/tavi/booking.js");
-app.use("/booking", bookingRouter);
+const bookingRouter = require("./Routes/tavi/bookings.js");
+app.use("/booking", bookingRouter); //loading models file
 
 
 // CHIYAN
