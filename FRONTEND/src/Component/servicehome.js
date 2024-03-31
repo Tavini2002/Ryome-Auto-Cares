@@ -2,7 +2,10 @@ import React from "react";
 import "./Home.css";
 
 export default function servicehome(){
-
+<div>
+    <a href=""><button>packages</button></a>
+    <a href=""><button>services</button></a>
+</div>
     return(
         <div className="text-2xl ">
             <ul>
